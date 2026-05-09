@@ -1,1 +1,23 @@
-{"name": "mock-gstn-portal", "version": "1.0.0"}
+{
+  "name": "mock-gstn-portal",
+  "version": "1.0.0",
+  "description": "Mock GSTN Regulatory Portal for RegGraph AI demo",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server",
+    "serve": "python -m http.server 8000"
+  },
+  "keywords": [
+    "gstn",
+    "regulatory",
+    "portal",
+    "mock",
+    "demo"
+  ],
+  "author": "VenkateshReddy007",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VenkateshReddy007/GSTN.git"
+  }
+}
